@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 data = pd.read_csv(
-    '/Users/shamalweerasooriya/Desktop/Spotify EDA/data/data.csv')
+    '/path/data/data.csv')
 
 train, test = train_test_split(data, test_size=0.15)  # split %15 for testing
 
